@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: octoprint
+  author: Jonathan Hanson
+  description: The Octoprint 3d printer management service
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Raspbian
+      versions: []
+    - name: OctoPi
+      versions: []
+  galaxy_tags:
+    - 3dprinter
+    - octoprint
+    - raspberrypi
+dependencies: []
