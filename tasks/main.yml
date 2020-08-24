@@ -2,3 +2,12 @@
 # Our goal here is to be able to install on both a raspbian install, and an octoPi install, where octoprint is already set up
 # So that means installing octoprint the same way octopi does, so it smoothly works either way
 # Mostly we just want to be able to insert our configuration
+
+- name: Ensure the OctoPrint plugin packages are installed
+  pip:
+    name: "{{ octoprint_plugins }}"
+    executable: "/home/pi/oprint/bin/pip"
+  notify: restart octoprint
+
+# set up the octoprint config files
+# TODO:

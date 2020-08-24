@@ -1,0 +1,12 @@
+---
+# A list of package names or urls suitable for being passed to pip.
+# Typically, thes can be found in the "Installation / Command Line:" section
+# in the sidebar of the plugin's documentation page in the Octoprint package
+# directory.
+#
+# For example:
+# https://plugins.octoprint.org/plugins/DeleteAfterPrint/
+# suggests https://github.com/OllisGit/OctoPrint-DeleteAfterPrint/releases/latest/download/master.zip
+#
+# Note that you can just pass regular python package names from PyPI here as well.
+octoprint_plugins: []

@@ -1,0 +1,5 @@
+---
+- name: restart octoprint
+  service:
+    name: "octoprint"
+    state: restarted
