@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: octoprint
+  namespace: triplepoint
   author: Jonathan Hanson
   description: The Octoprint 3d printer management service
   license: MIT
