@@ -4,10 +4,10 @@
 # Mostly we just want to be able to insert our configuration
 
 - name: Ensure the OctoPrint plugin packages are installed
-  pip:
+  ansible.builtin.pip:
     name: "{{ octoprint_plugins }}"
     executable: "/home/pi/oprint/bin/pip"
-  notify: restart octoprint
+  notify: Restart octoprint
 
 # set up the octoprint config files
 # TODO:
